@@ -16,41 +16,32 @@ div.CLUSTER {
     height: 100%;
     /*border: 1px solid gray;*/
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
+    border: 1px solid #fff;
+    padding: 5px 0 0 5px
 }
 
 div.BOX {
-    width: 200px;
-    height: 130px;
-    margin: 10px;
-    border-radius: 4px;
     background-color: #2C2C2C;
     border: 1px solid transparent;
     cursor: pointer;
+
+    padding: 5px 10px 5px 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #FFF;
+    border: 1px solid #0c70de;
+    border-radius: 3px;
+    line-height: normal;
 }
 
 div.BOX:hover {
     border: 1px solid #FFF;
 }
 
-img {
-    height: 100px;
-}
-
-div.BOX > div:nth-child(1) {
-    width: 200px;
-    height: 100px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-div.BOX > div:nth-child(2) {
-    text-align: center;
-    color: #FFF;
-    overflow: hidden;
-    white-space: pre;
-    padding: 6px 6px;
+div.BOX > div {
+    display: inline-flex;
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
 }
