@@ -4,10 +4,6 @@ var ARRAY = [
         "NAME": "ONE PIECE",
     },
     {
-        "URL": "https://coub.com/",
-        "NAME": "COUB",
-    },
-    {
         "URL": "http://skam.online/la-casa-de-papel/553-bumazhnyj-dom-1-sezon-12-serija.html",
         "NAME": "Бумажный дом",
     },
