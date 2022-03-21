@@ -12,8 +12,8 @@ var ARRAY = [
         "NAME": "Servers",
     },
     {
-        "URL": "",
-        "NAME": "",
+        "URL": "https://knower.pro/free-lesson/CmMQdmKlb7MH45Tp/3/",
+        "NAME": "3D",
     },
     {
         "URL": "",
