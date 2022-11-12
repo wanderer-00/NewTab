@@ -45,9 +45,9 @@ var ARRAY = [
         "ICON": "github.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
+        "URL": "https://coub.com/",
+        "NAME": "COUB",
+        "ICON": "coub.com.svg"
     },
     {
         "URL": "",
