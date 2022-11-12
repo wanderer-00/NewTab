@@ -1,15 +1,5 @@
 var ARRAY = [
     {
-        "URL": "https://jut.su/oneepiece/episode-266.html",
-        "NAME": "ONE PIECE",
-        "ICON": "one-piece.png"
-    },
-    {
-        "URL": "https://neighboranatoli.ga/status/index.html",
-        "NAME": "Servers",
-        "ICON": "servers.png"
-    },
-    {
         "URL": "https://knower.pro/free-lesson/CmMQdmKlb7MH45Tp/3/",
         "NAME": "3D",
         "ICON": "knover.svg"
@@ -17,7 +7,7 @@ var ARRAY = [
     {
         "URL": "https://www.youtube.com/",
         "NAME": "YouTube",
-        "ICON": ""
+        "ICON": "youtube.svg"
     },
     {
         "URL": "https://boxy-svg.com/",
@@ -25,24 +15,64 @@ var ARRAY = [
         "ICON": "boxy-svg.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
-        "ICON": "boxy-svg.svg"
+        "URL": "https://www.corsair.com/",
+        "NAME": "corsair",
+        "ICON": "corsair.svg"
+    },
+    {
+        "URL": "https://music.yandex.ru/",
+        "NAME": "Яндекс музыка",
+        "ICON": "music.yandex.svg"
+    },
+    {
+        "URL": "https://aliexpress.ru/",
+        "NAME": "Aliexpress",
+        "ICON": "aliexpress.svg"
+    },
+    {
+        "URL": "https://yandex.ru/images/",
+        "NAME": "поиск по фото",
+        "ICON": "yandex.svg"
+    },
+    {
+        "URL": "https://www.avito.ru/",
+        "NAME": "Avito",
+        "ICON": "avito.svg"
+    },
+    {
+        "URL": "https://github.com/",
+        "NAME": "GitHub",
+        "ICON": "github.svg"
     },
     {
         "URL": "",
         "NAME": "",
-        "ICON": "boxy-svg.svg"
+        "ICON": ""
     },
     {
         "URL": "",
         "NAME": "",
-        "ICON": "boxy-svg.svg"
+        "ICON": ""
     },
     {
         "URL": "",
         "NAME": "",
-        "ICON": "boxy-svg.svg"
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
     },
 
 ]

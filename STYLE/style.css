@@ -1,15 +1,19 @@
-root{
-    --columns: 5;
+:root{
+    --size: 120px;
 }
 
 
 * {
-    box-sizing: border-box
+/*    box-sizing: border-box;*/
 }
 
+object{
+    width: 100%;
+    height: 100%;
+}
+
+
 body {
-    min-width: 100vw;
-    min-height: 100vh;
     background-color: #343434;
     font-family: sans-serif;
     padding: 0;
@@ -24,17 +28,13 @@ div.CLUSTER {
     justify-content: center;
     border: 1px solid #fff;
     padding: 5px 0 0 5px;
-    background: red;
 }
 
 div.BOX {
-    min-width: 110px;
-    height: 140px;
     background-color: #2C2C2C;
     border: 1px solid transparent;
     cursor: pointer;
 
-    padding: 5px 10px 5px 5px;
     margin-right: 5px;
     margin-bottom: 5px;
     font-size: 13px;
@@ -48,17 +48,21 @@ div.BOX:hover {
     border: 1px solid #FFF;
 }
 
-div.BOX > div:nth-child(1) {
-    height: 100px;
-    width: 100%;
-    vertical-align: middle;
-    align-items: center;
-}
-
 div.ICON{
-    width: 100%;
-    border: 1px solid red;
+    width: var(--size);
+    height: var(--size);
+    margin: 10px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    
+/*    background-color: blue;*/
+}       
+div.NAME{
+    width: var(--size);
+    padding: 6px 10px;
+    font-size: 1.2em;
+    height: calc(1em);
+    border-top: 1px solid #0c70de;
+    overflow: hidden;
 }
