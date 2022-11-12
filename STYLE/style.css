@@ -1,3 +1,8 @@
+root{
+    --columns: 5;
+}
+
+
 * {
     box-sizing: border-box
 }
@@ -13,14 +18,18 @@ body {
 
 div.CLUSTER {
     width: 100%;
-    height: 100%;
-    /*border: 1px solid gray;*/
+    height: auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 1px solid #fff;
-    padding: 5px 0 0 5px
+    padding: 5px 0 0 5px;
+    background: red;
 }
 
 div.BOX {
+    min-width: 110px;
+    height: 140px;
     background-color: #2C2C2C;
     border: 1px solid transparent;
     cursor: pointer;
@@ -39,9 +48,17 @@ div.BOX:hover {
     border: 1px solid #FFF;
 }
 
-div.BOX > div {
-    display: inline-flex;
-    height: 100%;
+div.BOX > div:nth-child(1) {
+    height: 100px;
+    width: 100%;
     vertical-align: middle;
     align-items: center;
+}
+
+div.ICON{
+    width: 100%;
+    border: 1px solid red;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

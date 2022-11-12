@@ -21,7 +21,7 @@ while (n < numberOBJ) {
 //        else {
             CLUSTER.innerHTML += `
                 <div class="BOX" onclick="document.location.href = '${ARRAY[n].URL}';">
-                    <div><img src="${ARRAY[n].URL}favicon.ico"></div>
+                    <div class="ICON" style="background-image: url('IMG/${ARRAY[n].ICON}')"></div>
                     <div>${ARRAY[n].NAME}</div>
                 </div>
             `;
