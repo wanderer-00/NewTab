@@ -55,14 +55,9 @@ var ARRAY = [
         "ICON": "commons.svg"
     },
     {
-        "URL": "http://breaking-bad-online.ru/",
-        "NAME": "Breaking Bad",
-        "ICON": "breaking-bad.svg "
-    },
-    {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
+        "URL": "https://getsharex.com/",
+        "NAME": "ShareX",
+        "ICON": "sharex.svg"
     },
     {
         "URL": "",
@@ -76,3 +71,15 @@ var ARRAY = [
     },
 
 ]
+
+var FILM = [
+    {
+        "URL": "http://breaking-bad-online.ru/",
+        "NAME": "Breaking Bad",
+        "ICON": "breaking-bad.svg "
+    },
+]
+
+var PROGRAMING = [
+    
+] 

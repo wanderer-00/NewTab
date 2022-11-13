@@ -4,7 +4,7 @@
 
 
 * {
-/*    box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 object{
@@ -31,7 +31,7 @@ div.CLUSTER {
 }
 
 div.BOX {
-    background-color: #2C2C2C;
+/*    background-color: #FFF;*/
     border: 1px solid transparent;
     cursor: pointer;
 
@@ -59,10 +59,10 @@ div.ICON{
 /*    background-color: blue;*/
 }       
 div.NAME{
-    width: var(--size);
+    width: calc(var(--size)+20);
     padding: 6px 10px;
     font-size: 1.2em;
-    height: calc(1em);
+    height: calc(2em);
     border-top: 1px solid #0c70de;
     overflow: hidden;
 }
