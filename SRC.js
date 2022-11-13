@@ -50,14 +50,14 @@ var ARRAY = [
         "ICON": "coub.com.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
+        "URL": "https://commons.wikimedia.org/w/index.php?search=magisk&title=Special:MediaSearch&go=Go&type=image&filemime=svg&uselang=ru",
+        "NAME": "WikiMedia SVG",
+        "ICON": "commons.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
+        "URL": "http://breaking-bad-online.ru/",
+        "NAME": "Breaking Bad",
+        "ICON": "breaking-bad.svg "
     },
     {
         "URL": "",
