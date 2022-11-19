@@ -60,8 +60,8 @@ var ARRAY = [
         "ICON": "sharex.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
+        "URL": "https://www.cheatengine.org/",
+        "NAME": "Cheat Engine",
         "ICON": ""
     },
     {
