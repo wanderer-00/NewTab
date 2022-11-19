@@ -65,11 +65,35 @@ var ARRAY = [
         "ICON": ""
     },
     {
+        "URL": "https://discord.com/",
+        "NAME": "Discord",
+        "ICON": "discord.svg"
+    },
+    {
         "URL": "",
         "NAME": "",
         "ICON": ""
     },
-
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    }
 ]
 
 var FILM = [
