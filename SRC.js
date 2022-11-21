@@ -60,16 +60,46 @@ var ARRAY = [
         "ICON": "sharex.svg"
     },
     {
+<<<<<<< HEAD
         "URL": "https://joyreactor.cc/",
         "NAME": "Joy Reactor",
         "ICON": "reactor.svg"
+=======
+        "URL": "https://www.cheatengine.org/",
+        "NAME": "Cheat Engine",
+        "ICON": ""
+    },
+    {
+        "URL": "https://discord.com/",
+        "NAME": "Discord",
+        "ICON": "discord.svg"
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+>>>>>>> 6ebda518399989b7132b8d1937a09fae2a98eb49
     },
     {
         "URL": "",
         "NAME": "",
         "ICON": ""
     },
-
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    },
+    {
+        "URL": "",
+        "NAME": "",
+        "ICON": ""
+    }
 ]
 
 var FILM = [
