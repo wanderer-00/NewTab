@@ -28,7 +28,6 @@ while (n < numberOBJ) {
                     <div class="NAME">${ARRAY[n].NAME}</div>
                 </div>
             `;
-//        };
     };
     n++;
 };

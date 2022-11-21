@@ -60,9 +60,9 @@ var ARRAY = [
         "ICON": "sharex.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
+        "URL": "https://joyreactor.cc/",
+        "NAME": "Joy Reactor",
+        "ICON": "reactor.svg"
     },
     {
         "URL": "",

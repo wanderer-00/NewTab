@@ -20,13 +20,21 @@ body {
     margin: 0;
 }
 
+/* ПОИСКОВАЯ СТРОКА */
+.SEARCH {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+/**********************************************/
+
 div.CLUSTER {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid #fff;
     padding: 5px 0 0 5px;
 }
 
