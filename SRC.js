@@ -60,11 +60,11 @@ var ARRAY = [
         "ICON": "sharex.svg"
     },
     {
-<<<<<<< HEAD
         "URL": "https://joyreactor.cc/",
         "NAME": "Joy Reactor",
         "ICON": "reactor.svg"
-=======
+    },
+    {
         "URL": "https://www.cheatengine.org/",
         "NAME": "Cheat Engine",
         "ICON": ""
@@ -78,7 +78,6 @@ var ARRAY = [
         "URL": "",
         "NAME": "",
         "ICON": ""
->>>>>>> 6ebda518399989b7132b8d1937a09fae2a98eb49
     },
     {
         "URL": "",
