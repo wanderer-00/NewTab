@@ -45,11 +45,6 @@ var ARRAY = [
         "ICON": "github.svg"
     },
     {
-        "URL": "https://coub.com/",
-        "NAME": "COUB",
-        "ICON": "coub.com.svg"
-    },
-    {
         "URL": "https://commons.wikimedia.org/w/index.php?search=magisk&title=Special:MediaSearch&go=Go&type=image&filemime=svg&uselang=ru",
         "NAME": "WikiMedia SVG",
         "ICON": "commons.svg"
@@ -60,14 +55,14 @@ var ARRAY = [
         "ICON": "sharex.svg"
     },
     {
-        "URL": "https://joyreactor.cc/",
-        "NAME": "Joy Reactor",
-        "ICON": "reactor.svg"
-    },
-    {
         "URL": "https://www.cheatengine.org/",
         "NAME": "Cheat Engine",
-        "ICON": ""
+        "ICON": "cheat-engine.svg"
+    },
+    {
+        "URL": "https://coub.com/",
+        "NAME": "COUB",
+        "ICON": "coub.com.svg"
     },
     {
         "URL": "https://discord.com/",
@@ -75,9 +70,9 @@ var ARRAY = [
         "ICON": "discord.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
+        "URL": "https://joyreactor.cc/",
+        "NAME": "Joy Reactor",
+        "ICON": "reactor.svg"
     },
     {
         "URL": "",
@@ -109,6 +104,5 @@ var FILM = [
     },
 ]
 
-var PROGRAMING = [
-    
-] 
+var MESSANGER = [
+]
