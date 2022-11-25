@@ -45,6 +45,11 @@ var ARRAY = [
         "ICON": "github.svg"
     },
     {
+        "URL": "https://codepen.io/",
+        "NAME": "CodePen",
+        "ICON": "codepen.svg"
+    },
+    {
         "URL": "https://commons.wikimedia.org/w/index.php?search=magisk&title=Special:MediaSearch&go=Go&type=image&filemime=svg&uselang=ru",
         "NAME": "WikiMedia SVG",
         "ICON": "commons.svg"
