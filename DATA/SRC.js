@@ -70,21 +70,6 @@ var ARRAY = [
         "ICON": "cheat-engine.svg"
     },
     {
-        "URL": "https://coub.com/",
-        "NAME": "COUB",
-        "ICON": "coub.com.svg"
-    },
-    {
-        "URL": "https://discord.com/",
-        "NAME": "Discord",
-        "ICON": "discord.svg"
-    },
-    {
-        "URL": "https://joyreactor.cc/",
-        "NAME": "Joy Reactor",
-        "ICON": "reactor.svg"
-    },
-    {
         "URL": "https://readme-typing-svg.herokuapp.com/demo/",
         "NAME": "SVG печатает",
         "ICON": ""
@@ -115,4 +100,24 @@ var FILM = [
 ]
 
 var MESSANGER = [
+    {
+        "URL": "https://coub.com/",
+        "NAME": "COUB",
+        "ICON": "coub.com.svg"
+    },
+    {
+        "URL": "https://discord.com/",
+        "NAME": "Discord",
+        "ICON": "discord.svg"
+    },
+    {
+        "URL": "https://joyreactor.cc/",
+        "NAME": "Joy Reactor",
+        "ICON": "reactor.svg"
+    },
+    {
+        "URL": "https://vk.com/",
+        "NAME": "VK",
+        "ICON": "vk.svg"
+    },
 ]
