@@ -9,8 +9,9 @@ Something similar to this:
 1. <b>AUTO ICONs</b> (PARSE FAVICON OR YOUR IDEAs)
 2. <b>USERs CSS</b> (EDIT USER, CREATE!)
 3. <b>AND JS</b> (THIS GOOUOOD!)
-4. <b>...</b>
-5. <b>WAIT! UNTIL YOU FIGURE IT OUT</b>
+4. <b>CREATE GROUP</b>
+5. <b>...</b>
+6. <b>WAIT! UNTIL YOU FIGURE IT OUT</b>
 
 
 READY TO HELP:
