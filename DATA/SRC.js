@@ -1,4 +1,10 @@
-var ARRAY = [
+var titleArray = [
+    "OTHER",
+    "MESSANGER",
+    "FILM"
+]
+
+var OTHER = [
     {
         "URL": "https://translate.google.com/?hl=ru",
         "NAME": "Google translate",
@@ -72,32 +78,17 @@ var ARRAY = [
     {
         "URL": "https://readme-typing-svg.herokuapp.com/demo/",
         "NAME": "SVG печатает",
-        "ICON": ""
+        "ICON": "-"
     },
     {
         "URL": "https://wanderer-00.github.io/websiteThemes/",
         "NAME": "Темы для сайтов",
-        "ICON": ""
-    },
-    {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
-    },
-    {
-        "URL": "",
-        "NAME": "",
-        "ICON": ""
+        "ICON": "-"
     }
 ]
 
-var FILM = [
-    {
-        "URL": "http://breaking-bad-online.ru/",
-        "NAME": "Breaking Bad",
-        "ICON": "breaking-bad.svg "
-    },
-]
+
+
 
 var MESSANGER = [
     {
@@ -119,5 +110,18 @@ var MESSANGER = [
         "URL": "https://vk.com/",
         "NAME": "VK",
         "ICON": "vk.svg"
-    },
+    }
 ]
+
+
+
+
+var FILM = [
+    {
+        "URL": "http://breaking-bad-online.ru/",
+        "NAME": "Breaking Bad",
+        "ICON": "breaking-bad.svg "
+    }
+]
+
+
