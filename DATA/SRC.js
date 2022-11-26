@@ -1,5 +1,10 @@
 var ARRAY = [
     {
+        "URL": "https://translate.google.com/?hl=ru",
+        "NAME": "Google translate",
+        "ICON": "google-translate.svg"
+    },
+    {
         "URL": "https://knower.pro/free-lesson/CmMQdmKlb7MH45Tp/3/",
         "NAME": "3D",
         "ICON": "knover.svg"
