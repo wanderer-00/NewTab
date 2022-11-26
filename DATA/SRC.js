@@ -85,13 +85,13 @@ var ARRAY = [
         "ICON": "reactor.svg"
     },
     {
-        "URL": "",
-        "NAME": "",
+        "URL": "https://readme-typing-svg.herokuapp.com/demo/",
+        "NAME": "SVG печатает",
         "ICON": ""
     },
     {
-        "URL": "",
-        "NAME": "",
+        "URL": "https://wanderer-00.github.io/websiteThemes/",
+        "NAME": "Темы для сайтов",
         "ICON": ""
     },
     {
