@@ -41,71 +41,58 @@ let LAYER4 = 5; // кол-во элементов 4 уровня
 
 
 
-
-var CLUSTER0 = document.getElementsByClassName('CLUSTER0')[0];
+/*****************************************************************************/
+    var CLUSTER0 = document.getElementsByClassName('CLUSTER0')[0];
 
 /**************************** ИНТЕРФЕЙС *************************************/
-var GROUP = 3; // КОЛ-ВО ГРУПП
-var G = 0; // СЧЕТЧИК ГРУПП
-/*****************************************************************************/
+    var G = 0; // счетчик групп
+    var GROUP = array.length; // кол-во групп
 
+/***************************** ФУНКЧИЯ **************************************/
+    while (G < GROUP){
+        CLUSTER0.innerHTML += `
+            <div class="BOX0">
 
+                <h1 style="color:#FFF; margin-left: 24px;: ">${array[G].name.toUpperCase()}</h1>
+                <div class="CLUSTER1"></div>
 
-/**************************** СОЗДАНИЕ ГРУПП *********************************/
-while (G < GROUP){
-    CLUSTER0.innerHTML += `
-        <div class="BOX0">
-            
-            <h1 style="color:#FFF; margin-left: 24px;: ">${titleArray[G]}</h1>
-            <div class="CLUSTER1"></div>
-
-        </div>`;
-    G++;
-}
-console.log("создано", GROUP, "группы")
-/*****************************************************************************/
-
-
-
-/**************************** ДОБАВЛЕНИЕ ЭЛЕМЕНТОВ В ГРУППЫ *********************************/
-G = 0;
-
-var E = 0; // СЧЕТЧИК ЭЛЕМЕНТОВ
-
-
-while (G < 3){
-    
-    var ELEMENT = 10;// КОЛ-ВО ЭЛЕМЕНТОВ
-    
-    console.log("G =",G);
-    var CLUSTER1 = document.getElementsByClassName('BOX0')[G].getElementsByClassName('CLUSTER1')[0];
-
-    while (E < ELEMENT) {
-        if (OTHER[E].NAME){
-                CLUSTER1.innerHTML += `
-                    <div class="BOX" onclick="document.location.href = '${OTHER[E].URL}';">
-                        <div class="ICON">
-                            <object type="image/svg+xml" data="IMG/${OTHER[E].ICON}">
-                                <img src="IMG/${OTHER[E].ICON}">
-                            </object>
-                        </div>
-                        <div class="NAME">${OTHER[E].NAME}</div>
-                    </div>
-                `;
-        };
-        console.log('*');
-        E++;
+            </div>`;
+        G++;
     }
-    E = 0;
-    console.log(`группа #${G+1} заполнена`);
-    G++;
-}
-/*************************************************************************************/
+    console.log("создано", GROUP, "группы")
 
+/****************************************************************************/
+    G = 0;
+    var E = 0; // СЧЕТЧИК ЭЛЕМЕНТОВ
 
+    while (G < GROUP){
 
+        var ELEMENT = array[G].content.length;// КОЛ-ВО ЭЛЕМЕНТОВ
+        console.log(`В группе #${G+1}: ${ELEMENT} элементов`);
+        var CLUSTER1 = document.getElementsByClassName('BOX0')[G].getElementsByClassName('CLUSTER1')[0];
 
+        var content = array[G].content;
+        console.log(content);
 
+        while (E < ELEMENT) {
+            if (array[G].name != ""){
+                    CLUSTER1.innerHTML += `
+                        <div class="BOX" onclick="document.location.href = '${content[E].URL}';">
+                            <div class="ICON">
+                                <object type="image/svg+xml" data="IMG/${content[E].ICON}">
+                                    <img src="IMG/${content[E].ICON}">
+                                </object>
+                            </div>
+                            <div class="NAME">${content[E].NAME}</div>
+                        </div>`;
+            };
+            E++;
+        }
+        E = 0;
+        G++;
+    }
+
+/****************************************************************************/
 
 
 
