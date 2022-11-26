@@ -80,11 +80,6 @@ var OTHER = [
         "NAME": "SVG печатает",
         "ICON": "-"
     },
-    {
-        "URL": "https://wanderer-00.github.io/websiteThemes/",
-        "NAME": "Темы для сайтов",
-        "ICON": "-"
-    }
 ]
 
 
@@ -121,6 +116,11 @@ var FILM = [
         "URL": "http://breaking-bad-online.ru/",
         "NAME": "Breaking Bad",
         "ICON": "breaking-bad.svg "
+    },
+    {
+        "URL": "https://wanderer-00.github.io/websiteThemes/",
+        "NAME": "Темы для сайтов",
+        "ICON": "-"
     }
 ]
 
