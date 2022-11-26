@@ -48,16 +48,6 @@ var array = [
                 "ICON": "avito.svg"
             },
             {
-                "URL": "https://github.com/",
-                "NAME": "GitHub",
-                "ICON": "github.svg"
-            },
-            {
-                "URL": "https://codepen.io/",
-                "NAME": "CodePen",
-                "ICON": "codepen.svg"
-            },
-            {
                 "URL": "https://commons.wikimedia.org/w/index.php?search=magisk&title=Special:MediaSearch&go=Go&type=image&filemime=svg&uselang=ru",
                 "NAME": "WikiMedia SVG",
                 "ICON": "commons.svg"
@@ -75,7 +65,7 @@ var array = [
             {
                 "URL": "https://readme-typing-svg.herokuapp.com/demo/",
                 "NAME": "SVG печатает",
-                "ICON": "-"
+                "ICON": ""
             },
         ]
     },
@@ -123,7 +113,17 @@ var array = [
             {
                 "URL": "https://wanderer-00.github.io/websiteThemes/",
                 "NAME": "Темы для сайтов",
-                "ICON": "-"
+                "ICON": ""
+            },
+            {
+                "URL": "https://github.com/",
+                "NAME": "GitHub",
+                "ICON": "github.svg"
+            },
+            {
+                "URL": "https://codepen.io/",
+                "NAME": "CodePen",
+                "ICON": "codepen.svg"
             },
         ]
     }

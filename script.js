@@ -80,7 +80,7 @@ let LAYER4 = 5; // кол-во элементов 4 уровня
                         <div class="BOX" onclick="document.location.href = '${content[E].URL}';">
                             <div class="ICON">
                                 <object type="image/svg+xml" data="IMG/${content[E].ICON}">
-                                    <img src="IMG/${content[E].ICON}">
+                                    <img src="IMG/${content[E].ICON}" alt=":(">
                                 </object>
                             </div>
                             <div class="NAME">${content[E].NAME}</div>
