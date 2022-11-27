@@ -99,6 +99,21 @@ var array = [
                 "ICON": "reactor.svg"
             },
             {
+                "URL": "https://ru.pinterest.com/",
+                "NAME": "Pinterest",
+                "ICON": "pinterest.svg"
+            },
+            {
+                "URL": "",
+                "NAME": "",
+                "ICON": ".svg"
+            },
+            {
+                "URL": "",
+                "NAME": "",
+                "ICON": ".svg"
+            },
+            {
                 "URL": "",
                 "NAME": "",
                 "ICON": ".svg"
