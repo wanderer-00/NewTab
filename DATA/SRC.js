@@ -84,14 +84,24 @@ var array = [
                 "ICON": "discord.svg"
             },
             {
+                "URL": "https://vk.com/",
+                "NAME": "VK",
+                "ICON": "vk.svg"
+            },
+            {
+                "URL": "https://xn--80affa3aj0al.xn--80asehdb/",
+                "NAME": "Telegram",
+                "ICON": "telegram.svg"
+            },
+            {
                 "URL": "https://joyreactor.cc/",
                 "NAME": "Joy Reactor",
                 "ICON": "reactor.svg"
             },
             {
-                "URL": "https://vk.com/",
-                "NAME": "VK",
-                "ICON": "vk.svg"
+                "URL": "",
+                "NAME": "",
+                "ICON": ".svg"
             },
         ]
     },
