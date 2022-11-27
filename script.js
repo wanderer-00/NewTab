@@ -1,10 +1,28 @@
 // GOOGLE SEARCH
-document.querySelector('#run').addEventListener('click', function (e) {
-  let query = document.querySelector('#query').value;
+document.querySelector('.run').addEventListener('click', function (e) {
+  var query = document.querySelector('.search').value;
   
-  if(query)
-    window.location = `https://www.google.ru/search?q=${query}`;
+  if(query){
+      window.location = `https://www.google.ru/search?q=${query}`;
+  }
 });
+
+
+
+
+// УПРАВЛЕНИЕ С КЛАВИАТУРЫ
+// ↑ - открыть в новой вкладке
+// ↓ - скачать
+// ← - прошлый пост
+// → - следующий пост
+
+document.onkeydown = function(event) {
+    console.log(event);
+    if (event.code == 'ArrowDown') {window.location = `https://www.google.ru/search?q=${query}`;};
+    if (event.code == 'ArrowUp') {};
+    if (event.code == 'ArrowLeft') {};
+    if (event.code == 'ArrowRight') {};
+};
 /*-------------------------------------------------------------------*/
 
 //let cluster = document.getElementsByClassName("cluster")[0];
