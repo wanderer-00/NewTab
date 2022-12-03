@@ -5,17 +5,35 @@
         <style type="text/css">
             :root {
                 /* LIGHT */
-                --color-background: ;
-            }
-            
-            body {VBG
-                background-color: var(--color-background);
-            }
-            
-            .cluster {
+                --body-background-color: #343434;
                 
+                --card-background-color: #FFF;
+                --card-margin: 10px;
+                --card-width-height: 200px;
+                --card-border-radius: 6px;
             }
             
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: var(--body-background-color);
+            }
+            
+            .cluster{
+                display: flex;
+            }
+
+            .card{
+                width: var(--card-width-height);
+                height: var(--card-width-height);
+                
+                margin: var(--card-margin) 0 var(--card-margin) var(--card-margin);
+                
+                background-color: var(--card-background-color);
+                border-radius: var(--card-border-radius);
+                border: 1px solid gray;
+            }
+            .card:last-child{margin-right: var(--card-margin)}
         </style>
         
     </head>
