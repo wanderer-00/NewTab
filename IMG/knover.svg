@@ -10,7 +10,7 @@
          <style type="text/css">
              <![CDATA[
              .TEXT {
-                 fill: #FFF;
+                 fill: rgba(0,0,0,.2);
                  fill-rule: nonzero
              }
              ]]>

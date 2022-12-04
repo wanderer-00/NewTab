@@ -59,56 +59,78 @@ let LAYER4 = 5; // кол-во элементов 4 уровня
 
 
 
+
+
+
 /*****************************************************************************/
-    var CLUSTER0 = document.getElementsByClassName('CLUSTER0')[0];
+//    var CLUSTER0 = document.getElementsByClassName('cluster')[0];
 
 /**************************** ИНТЕРФЕЙС *************************************/
-    var G = 0; // счетчик групп
-    var GROUP = array.length; // кол-во групп
+//    var G = 0; // счетчик групп
+//    var GROUP = array.length; // кол-во групп
 
 /***************************** ФУНКЧИЯ **************************************/
-    while (G < GROUP){
-        CLUSTER0.innerHTML += `
-            <div class="BOX0">
-
-                <h1 style="color:#FFF; margin-left: 24px;: ">${array[G].name.toUpperCase()}</h1>
-                <div class="CLUSTER1"></div>
-
-            </div>`;
-        G++;
-    }
-    console.log("создано", GROUP, "группы")
+//    while (G < GROUP){
+//        CLUSTER0.innerHTML += `
+//            <div class="BOX0">
+//
+//                <h1 style="color:#FFF; margin-left: 24px;: ">${array[G].name.toUpperCase()}</h1>
+//                <div class="CLUSTER1"></div>
+//
+//            </div>`;
+//        G++;
+//    }
+//    console.log("создано", GROUP, "группы")
 
 /****************************************************************************/
+
+var cluster = document.getElementsByClassName("cluster")[0];
+
     G = 0;
     var E = 0; // СЧЕТЧИК ЭЛЕМЕНТОВ
 
-    while (G < GROUP){
+while (E < array.length) {
+    if (array[E].NAME != "" || array[E].ICON != ""){
+            cluster.innerHTML += `
+                <div class="card" onclick="document.location.href = '${array[E].URL}';">
+                    <div class="icon">
+                        <object type="image/svg+xml" data="IMG/${array[E].ICON}">
+                            <img src="IMG/${array[E].ICON}" alt=":(">
+                        </object>
+                    </div>
+                    <div class="name">${array[E].NAME}</div>
+                </div>`;
+    };
+    E++;
+}
 
-        var ELEMENT = array[G].content.length;// КОЛ-ВО ЭЛЕМЕНТОВ
-        console.log(`В группе #${G+1}: ${ELEMENT} элементов`);
-        var CLUSTER1 = document.getElementsByClassName('BOX0')[G].getElementsByClassName('CLUSTER1')[0];
-
-        var content = array[G].content;
-        console.log(content);
-
-        while (E < ELEMENT) {
-            if (array[G].name != ""){
-                    CLUSTER1.innerHTML += `
-                        <div class="BOX" onclick="document.location.href = '${content[E].URL}';">
-                            <div class="ICON">
-                                <object type="image/svg+xml" data="IMG/${content[E].ICON}">
-                                    <img src="IMG/${content[E].ICON}" alt=":(">
-                                </object>
-                            </div>
-                            <div class="NAME">${content[E].NAME}</div>
-                        </div>`;
-            };
-            E++;
-        }
-        E = 0;
-        G++;
-    }
+//
+//    while (G < GROUP){
+//
+//        var ELEMENT = array[G].content.length;// КОЛ-ВО ЭЛЕМЕНТОВ
+//        console.log(`В группе #${G+1}: ${ELEMENT} элементов`);
+//        var CLUSTER1 = document.getElementsByClassName('BOX0')[G].getElementsByClassName('CLUSTER1')[0];
+//
+//        var content = array[G].content;
+//        console.log(content);
+//
+//        while (E < ELEMENT) {
+//            if (array[G].name != ""){
+//                    CLUSTER1.innerHTML += `
+//                        <div class="card" onclick="document.location.href = '${content[E].URL}';">
+//                            <div class="icon">
+//                                <object type="image/svg+xml" data="IMG/${content[E].ICON}">
+//                                    <img src="IMG/${content[E].ICON}" alt=":(">
+//                                </object>
+//                            </div>
+//                            <div class="name">${content[E].NAME}</div>
+//                        </div>`;
+//            };
+//            E++;
+//        }
+//        E = 0;
+//        G++;
+//    }
 
 /****************************************************************************/
 
