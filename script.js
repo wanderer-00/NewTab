@@ -1,11 +1,11 @@
 // GOOGLE SEARCH
-document.querySelector('.run').addEventListener('click', function (e) {
-  var query = document.querySelector('.search').value;
-  
-  if(query){
-      window.location = `https://www.google.ru/search?q=${query}`;
-  }
-});
+//document.querySelector('.run').addEventListener('click', function (e) {
+//  var query = document.querySelector('.search').value;
+//  
+//  if(query){
+//      window.location = `https://www.google.ru/search?q=${query}`;
+//  }
+//});
 
 
 
@@ -18,10 +18,10 @@ document.querySelector('.run').addEventListener('click', function (e) {
 
 document.onkeydown = function(event) {
     console.log(event);
-    if (event.code == 'ArrowDown') {window.location = `https://www.google.ru/search?q=${query}`;};
-    if (event.code == 'ArrowUp') {};
-    if (event.code == 'ArrowLeft') {};
-    if (event.code == 'ArrowRight') {};
+    if (event.code == 'ArrowDown')
+    {
+        window.location = `https://www.google.ru/search?q=${query}`;
+    };
 };
 /*-------------------------------------------------------------------*/
 

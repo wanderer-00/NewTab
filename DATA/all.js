@@ -1,7 +1,7 @@
 var array = [
     {
         "URL": "https://translate.google.com/?hl=ru",
-        "NAME": "Google translate",
+        "NAME": "Google translate111111111111",
         "ICON": "google-translate.svg"
     },
     {

@@ -6,9 +6,8 @@
 
     --card-background-color: #FFF;
     --card-color: var(--color);
-    --card-margin: 10px;
+    --card-margin: 40px;
     --card-padding: 24px;
-    --card-width-height: ;
     --card-shadows-color: rgba(0,0,0,.5);
     --card-border-radius: 10px;
 
@@ -22,5 +21,3 @@
     --scrollbar-trumb-background-color: rgba(0,0,0,.2);
     --scrollbar-trumb-background-color-hover: rgba(0,0,0,.3);
 }
-
-
