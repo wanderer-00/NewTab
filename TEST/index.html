@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    
+    <style type="text/css">
+        body {
+            font-family: cursive;
+        }
+        .SVG {
+            width: 100px;
+            height: 100px;
+        }
+        .sample {
+            width: 100px;
+            height: 100px;
+            border: 2px solid gray
+        }
+    </style>
+    
+    <body>
+        
+        
+        <div>
+            <h2>за стеклом</h2>
+            <p>не поддерживает управление из вне</p>
+            <div class="sample">
+                <img class="SVG" src="beacon.svg">
+            </div>
+            <div class="sample">
+                <div class="SVG" style="background-image: url(beacon.svg)"></div>
+            </div>
+        </div>
+        
+        <div>
+            <h2>object</h2>
+            <p>поддерживает управление из вне</p>
+            <div class="sample">
+                <object class="SVG" type="image/svg+xml" data="beacon.svg"></object>
+            </div>
+        </div>
+        
+        <div>
+            <h2>svg</h2>
+            <p>поддерживает управление из вне</p>
+            <div class="sample">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                  <g fill="#F00" stroke="#3b5998" stroke-width="4">
+                    <path d="M28,6h44v16l-22,21l-22-21z" fill="#6d84b4"/>
+                    <path d="M28,95h44v-16l-22-21l-22,21z" fill="#6d84b4"/>
+                    <path d="M6,30v42h15l21-21l-21-21z" fill="#afbfde"/>
+                    <path d="M95,30v42h-15l-21-21l21-21z" fill="#afbfde"/>
+                  </g>
+                </svg>
+            </div>
+        </div>
+        
+        
+        <h1>основные фигуры</h1>
+        <div style="border: 1px solid red">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                <rect x="10"
+                      y="10"
+                      rx="4"
+                      ry="4"
+                      width="30"
+                      height="30"/>
+            </svg>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                <circle cx="25"
+                        cy="75"
+                        r="20"/>
+                
+                <ellipse cx="75"
+                         cy="75"
+                         rx="20"
+                         ry="5"/>
+                
+                <line x1="0"
+                      x2="100"
+                      y1="0"
+                      y2="150"
+                      stroke="10"/>
+                <g>
+                    <line x1="40" x2="120" y1="20" y2="20" stroke="red" stroke-width="20" stroke-linecap="butt"/>
+                    <line x1="40" x2="120" y1="60" y2="60" stroke="red" stroke-width="20" stroke-linecap="square"/>
+                    <line x1="40" x2="120" y1="100" y2="100" stroke="red" stroke-width="20" stroke-linecap="round"/>
+                </g>
+            </svg>
+        </div>
+        
+        <!--https://youtu.be/TNX0-JLdM_U-->
+        <!--какая-то библиотека SVD https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/?C=M;O=D-->
+
+    </body>
+    
+    
+</html>
