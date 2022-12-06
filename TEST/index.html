@@ -5,6 +5,8 @@
     <style type="text/css">
         body {
             font-family: cursive;
+            color: #FFF;
+            background-color: #343434;
         }
         .SVG {
             width: 100px;
@@ -15,6 +17,28 @@
             height: 100px;
             border: 2px solid gray
         }
+        
+        .предложения {
+            color: slategray;
+        }
+        
+        
+        
+        /* учим SVG */
+        .sample-figure {
+            border: 2px solid gray;
+        }
+        
+
+        
+        .all-sample {
+            fill: blue;
+            fill-opacity: 1;
+            stroke: green;
+            stroke-width: 4;
+            stroke-opacity: 0.6;
+        }
+
     </style>
     
     <body>
@@ -56,37 +80,55 @@
         
         
         <h1>основные фигуры</h1>
-        <div style="border: 1px solid red">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                <rect x="10"
-                      y="10"
-                      rx="4"
-                      ry="4"
-                      width="30"
-                      height="30"/>
+        <div>
+            
+            
+            <a name="dot_zero">точка отсчета</a> - точка, относительно которой отрисовывается фигура
+            <div class="предложения">
+                добавить парачку примеров
+            </div>
+            
+            <hr>
+            
+            <div class="предложения">
+                поисковая строка всех атрибутов
+            </div>
+            
+            <input type="search" placeholder="поиск атрибута">
+
+            <div class="предложения">
+                сортировка тегов по: алфавиту, популярности
+            </div>
+            
+            <h3>все атрибуты:</h3>
+            <div class="all-attributes"></div>
+            <script src="JS/all-attributes.js"></script>
+            
+            <hr>
+            
+            <div class="all-figures"></div>
+            <script src="JS/all-figures.js"></script>
+            
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40">
+                <polyline points="0 0, 10 40, 20 0, 30 40, 40 20, 80 20" stroke="#FFF" stroke-width="2" fill="transparent"/>
             </svg>
             
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                <circle cx="25"
-                        cy="75"
-                        r="20"/>
-                
-                <ellipse cx="75"
-                         cy="75"
-                         rx="20"
-                         ry="5"/>
-                
-                <line x1="0"
-                      x2="100"
-                      y1="0"
-                      y2="150"
-                      stroke="10"/>
-                <g>
-                    <line x1="40" x2="120" y1="20" y2="20" stroke="red" stroke-width="20" stroke-linecap="butt"/>
-                    <line x1="40" x2="120" y1="60" y2="60" stroke="red" stroke-width="20" stroke-linecap="square"/>
-                    <line x1="40" x2="120" y1="100" y2="100" stroke="red" stroke-width="20" stroke-linecap="round"/>
-                </g>
+            <svg width="325" height="325" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 80 80
+                       A 45 45, 0, 0, 0, 125 125
+                       L 125 80 Z" fill="green"/>
+                <path d="M 230 80
+                       A 45 45, 0, 1, 0, 275 125
+                       L 275 80 Z" fill="red"/>
+                <path d="M 80 230
+                       A 45 45, 0, 0, 1, 125 275
+                       L 125 230 Z" fill="purple"/>
+                <path d="M 230 230
+                       A 45 45, 0, 1, 1, 275 275
+                       L 275 230 Z" fill="blue"/>
             </svg>
+            
         </div>
         
         <!--https://youtu.be/TNX0-JLdM_U-->

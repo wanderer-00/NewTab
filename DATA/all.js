@@ -113,7 +113,11 @@ var array = [
         "URL": "https://readme-typing-svg.herokuapp.com/demo/",
         "NAME": "SVG печатает",
         "ICON": ""
+    },
+    {
+        "URL": "https://jut.su/boku-hero-academia/season-4/episode-15.html",
+        "NAME": "My hero academia",
+        "ICON": "my-hero-academia.svg"
     }
-    
 ]
 
