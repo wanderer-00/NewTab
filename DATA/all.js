@@ -1,18 +1,38 @@
 var array = [
     {
         "URL": "https://translate.google.com/?hl=ru",
-        "NAME": "Google translate111111111111",
+        "NAME": "Translate",
         "ICON": "google-translate.svg"
     },
     {
-        "URL": "https://knower.pro/free-lesson/CmMQdmKlb7MH45Tp/3/",
-        "NAME": "3D",
-        "ICON": "knover.svg"
+        "URL": "https://www.google.com/docs/about/",
+        "NAME": "Documents",
+        "ICON": "google_docs.svg"
+    },
+    {
+        "URL": "https://www.google.com/sheets/about/",
+        "NAME": "Sheets",
+        "ICON": "google_sheets.svg"
+    },
+    {
+        "URL": "https://www.google.com/slides/about/",
+        "NAME": "Slides",
+        "ICON": "google_slides.svg"
+    },
+    {
+        "URL": "https://drive.google.com/",
+        "NAME": "Drive",
+        "ICON": "google_drive.svg"
     },
     {
         "URL": "https://www.youtube.com/",
         "NAME": "YouTube",
         "ICON": "youtube.svg"
+    },
+    {
+        "URL": "https://knower.pro/free-lesson/CmMQdmKlb7MH45Tp/3/",
+        "NAME": "3D",
+        "ICON": "knover.svg"
     },
     {
         "URL": "https://boxy-svg.com/",
