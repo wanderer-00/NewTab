@@ -22,8 +22,7 @@ document.onkeydown = function(event) {
     {
         window.location = `https://www.google.ru/search?q=${query}`;
     };
-};
-/*-------------------------------------------------------------------*/
+};/*-------------------------------------------------------------------*/
 
 //let cluster = document.getElementsByClassName("cluster")[0];
 
@@ -87,23 +86,26 @@ let LAYER4 = 5; // кол-во элементов 4 уровня
 var cluster = document.getElementsByClassName("cluster")[0];
 
     G = 0;
-    var E = 0; // СЧЕТЧИК ЭЛЕМЕНТОВ
 
-while (E < array.length) {
-    if (array[E].NAME != "" || array[E].ICON != ""){
-            cluster.innerHTML += `
-                <div class="card" onclick="document.location.href = '${array[E].URL}';">
-                    <div class="icon">
-                        <object type="image/svg+xml" data="IMG/${array[E].ICON}">
-                            <img src="IMG/${array[E].ICON}" alt=":(">
-                        </object>
-                    </div>
-                    <div class="name">${array[E].NAME}</div>
-                </div>`;
-    };
-    E++;
+for (n=0; n<array.length; n++) {
+    if (array[n].NAME != "" & array[n].ICON != ""){
+        cluster.innerHTML += `
+            <div class="card" onclick="document.location.href = '${array[n].URL}';">
+                <div class="icon">
+                    <object type="image/svg+xml" data="IMG/${array[n].ICON}">
+                        <img src="IMG/${array[n].ICON}" alt=":(">
+                    </object>
+                </div>
+                <div class="name">${array[n].NAME}</div>
+            </div>`;
+    }
 }
 
+
+var loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart * -1;
+loadTime = loadTime / 1e12;
+loadTime = loadTime.toFixed(3);
+console.log("Время загрузки:",loadTime,"сек");
 //
 //    while (G < GROUP){
 //
