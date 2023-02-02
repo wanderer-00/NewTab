@@ -35,7 +35,11 @@
             padding: 0;
             width: 100%;
             height: 100vh;
-            background-color: var(--body-background-color);
+            /*background-color: var(--body-background-color);*/
+            background-image: url(https://book-horror.ru/wp-content/uploads/2019/06/a2f125328af03a817f8b9f62a1b3b54f92539fea.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
         }
         
         .cluster {
@@ -59,15 +63,19 @@
             margin: 20px 0 0 var(--card-margin);
             padding: 0 var(--card-padding);
 
-            background-color: var(--card-background-color);
+            /*background-color: var(--card-background-color);*/
+            background-color: rgba(255,255,255,.2);
+            backdrop-filter: blur(2px);
+
             border-radius: var(--card-border-radius);
             box-shadow: 0 0 3px 0 var(--card-shadows-color);
             cursor: pointer;
+
         }
 
         .card:last-child
         {
-            margin-right: var(--card-margin)
+            /*???????????margin-right: var(--card-margin)*/
         }
 
         .card:hover

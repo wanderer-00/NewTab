@@ -16,13 +16,13 @@
 // ← - прошлый пост
 // → - следующий пост
 
-document.onkeydown = function(event) {
-    console.log(event);
-    if (event.code == 'ArrowDown')
-    {
-        window.location = `https://www.google.ru/search?q=${query}`;
-    };
-};/*-------------------------------------------------------------------*/
+// document.onkeydown = function(event) {
+//     console.log(event);
+//     if (event.code == 'ArrowDown')
+//     {
+//         window.location = `https://www.google.ru/search?q=${query}`;
+//     };
+// };
 
 //let cluster = document.getElementsByClassName("cluster")[0];
 
@@ -90,9 +90,9 @@ var cluster = document.getElementsByClassName("cluster")[0];
 for (n=0; n<array.length; n++) {
     if (array[n].NAME != "" & array[n].ICON != ""){
         cluster.innerHTML += `
-            <div class="card" onclick="document.location.href = '${array[n].URL}';">
+            <div class="card" onclick="window.location='https://www.google.ru/'">
                 <div class="icon">
-                    <object type="image/svg+xml" data="IMG/${array[n].ICON}">
+                    <object type="image/svg+xml" data="IMG/${array[n].ICON}" >
                         <img src="IMG/${array[n].ICON}" alt=":(">
                     </object>
                 </div>

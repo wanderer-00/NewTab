@@ -2,7 +2,6 @@
     --size: 120px;
 }
 
-
 * {
     box-sizing: border-box;
 }
@@ -12,6 +11,9 @@ object{
     height: 100%;
 }
 
+a{
+    display: block;
+}
 
 body {
     background-color: #343434;
@@ -48,7 +50,7 @@ div.CLUSTER1 {
     padding: 5px 0 0 5px;
 }
 
-div.BOX {
+div.BOX, object {
 /*    background-color: #FFF;*/
     border: 1px solid transparent;
     cursor: pointer;
