@@ -99,11 +99,11 @@ var array = [
         "NAME": "Telegram",
         "ICON": "telegram.svg"
     },
-    // {
-    //     "URL": "https://joyreactor.cc/",
-    //     "NAME": "Joy Reactor",
-    //     "ICON": "reactor.svg"
-    // },
+    {
+        "URL": "https://joyreactor.cc/",
+        "NAME": "Joy Reactor",
+        "ICON": "reactor.svg"
+    },
     {
         "URL": "https://ru.pinterest.com/",
         "NAME": "Pinterest",

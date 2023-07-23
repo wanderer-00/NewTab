@@ -90,7 +90,7 @@ var cluster = document.getElementsByClassName("cluster")[0];
 for (n=0; n<array.length; n++) {
     if (array[n].NAME != "" & array[n].ICON != ""){
         cluster.innerHTML += `
-            <div class="card" onclick="window.location='https://www.google.ru/'">
+            <div class="card" onclick="window.location='${array[n].URL}'">
                 <div class="icon">
                     <object type="image/svg+xml" data="IMG/${array[n].ICON}" >
                         <img src="IMG/${array[n].ICON}" alt=":(">

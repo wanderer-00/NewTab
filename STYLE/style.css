@@ -3,6 +3,8 @@
     --color: #000;
 
     --body-background-color: #FFF;
+    
+    --cluster-width: 1600px;
 
     --card-background-color: #FFF;
     --card-color: var(--color);
