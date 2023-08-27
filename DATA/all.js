@@ -136,7 +136,7 @@ var array = [
     },
     {
         "URL": "https://wanderer-00.github.io/Programs/",
-        "NAME": "Progs",
+        "NAME": "Program",
         "ICON": "111.svg"
     }
 ]
