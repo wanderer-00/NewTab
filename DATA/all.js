@@ -132,7 +132,12 @@ var array = [
     {
         "URL": "https://readme-typing-svg.herokuapp.com/demo/",
         "NAME": "SVG печатает",
-        "ICON": ""
+        "ICON": "111.svg"
+    },
+    {
+        "URL": "https://wanderer-00.github.io/Programs/",
+        "NAME": "Progs",
+        "ICON": "111.svg"
     }
 ]
 
