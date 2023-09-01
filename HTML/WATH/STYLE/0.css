@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after
+{box-sizing: border-box}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.card
+{
+    max-width: 200px;
+    border: 1px solid red;
+}
+
+.icon img{
+    width: 100%
+}

@@ -8,25 +8,10 @@
 <!-- style's -->
     <link rel="stylesheet" href="STYLE/style.css">
     <link rel="stylesheet" href="STYLE/sunlight/sunlight.css">
+    <link rel="stylesheet" href="STYLE/ScrollBar.css">
 </head>
     
     <style type="text/css">
-        /***************************** Scroll Bar *****************************/
-        body::-webkit-scrollbar {
-            width: var(--scrollbar-width)
-        }
-
-        body::-webkit-scrollbar-thumb {
-            border-radius: 8px;
-            background-color: var(--scrollbar-trumb-background-color)
-        }
-
-        body::-webkit-scrollbar-thumb:hover {
-            background-color: var(--scrollbar-trumb-background-color-hover)
-        }
-
-        /***********************************************************************/
-
 
         * {box-sizing: border-box}
 
@@ -126,7 +111,18 @@
 
 <!--    <img src="STYLE/sunlight/reference.png" style="width: 100%">-->
 
+<div class="SEARCH" style="background-color: aquamarine; text-align: center">
+    <input type="text" placeholder="Введите поисковый запрос или URL"
+    style="
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1em;
+        width: 50%;
+    ">
+</div>
 
+   
+   
     <div class="cluster"></div>
     
     <div class="VIDEO"></div>

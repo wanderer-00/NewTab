@@ -144,5 +144,10 @@ var array = [
         "NAME": "Сериалы",
         "ICON": "kino.svg"
     },
+    {
+        "URL": "https://www.kinopoisk.ru/",
+        "NAME": "Kinopoisk",
+        "ICON": "kinopoisk.svg"
+    }
 ]
 
