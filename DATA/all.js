@@ -148,6 +148,11 @@ var array = [
         "URL": "https://www.kinopoisk.ru/",
         "NAME": "Kinopoisk",
         "ICON": "kinopoisk.svg"
+    },
+    {
+        "URL": "https://fonts.google.com/icons",
+        "NAME": "Material Icons",
+        "ICON": "kinopoisk.svg"
     }
 ]
 
