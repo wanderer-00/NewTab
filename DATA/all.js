@@ -151,8 +151,8 @@ var array = [
     },
     {
         "URL": "https://fonts.google.com/icons",
-        "NAME": "Material Icons",
-        "ICON": "kinopoisk.svg"
+        "NAME": "Google Icons",
+        "ICON": "google_icon.svg"
     },
     {
         "URL": "https://www.blender.org/",
