@@ -153,6 +153,11 @@ var array = [
         "URL": "https://fonts.google.com/icons",
         "NAME": "Material Icons",
         "ICON": "kinopoisk.svg"
-    }
+    },
+    {
+        "URL": "https://www.blender.org/",
+        "NAME": "Blender",
+        "ICON": "blender.svg"
+    },
 ]
 
