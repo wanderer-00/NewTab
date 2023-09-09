@@ -90,14 +90,10 @@ var cluster = document.getElementsByClassName("cluster")[0];
 for (n=0; n<array.length; n++) {
     if (array[n].NAME != "" & array[n].ICON != ""){
         cluster.innerHTML += `
-            <div class="card" onclick="window.location='${array[n].URL}'">
-                <div class="icon">
-                    <object type="image/svg+xml" data="IMG/${array[n].ICON}" >
-                        <img src="IMG/${array[n].ICON}" alt=":(">
-                    </object>
-                </div>
+            <a class="card" href="${array[n].URL}">
+                <div class="icon" style="background-image: url(IMG/${array[n].ICON})"></div>
                 <div class="name">${array[n].NAME}</div>
-            </div>`;
+            </a>`;
     }
 }
 
