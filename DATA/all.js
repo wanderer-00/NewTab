@@ -159,5 +159,10 @@ var array = [
         "NAME": "Blender",
         "ICON": "blender.svg"
     },
+    {
+        "URL": "http://crazybump.com/",
+        "NAME": "Crazybump",
+        "ICON": ".svg"
+    },
 ]
 
