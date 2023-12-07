@@ -5,6 +5,11 @@ var array = [
         "ICON": "google-translate.svg"
     },
     {
+        "URL": "https://www.reddit.com/",
+        "NAME": "Reddit",
+        "ICON": "reddit.svg"
+    },
+    {
         "URL": "https://www.google.com/docs/about/",
         "NAME": "Documents",
         "ICON": "google_docs.svg"
