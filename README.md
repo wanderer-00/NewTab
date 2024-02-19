@@ -3,7 +3,7 @@ I'm a foreigner (No do i speac eanglihshs (0_ o )
 # NewTab - YES...
 This project should be called "Browser Bookmarks".<br>
 Something similar to this:
-![](https://opera-web.ru/wp-content/uploads/2019/04/Opera-start-page.jpg)
+![](poster.png)
 
 ## FUNCTIOAL:
 1. <b>AUTO ICONs</b> (PARSE FAVICON OR YOUR IDEAs)
