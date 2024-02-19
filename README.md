@@ -3,7 +3,8 @@ I'm a foreigner (No do i speac eanglihshs (0_ o )
 # NewTab - YES...
 This project should be called "Browser Bookmarks".<br>
 Something similar to this:
-![](https://media3.giphy.com/media/jAe22Ec5iICCk/giphy.gif)
+
+<img align="center" src="https://media3.giphy.com/media/jAe22Ec5iICCk/giphy.gif">
 
 ## FUNCTIOAL:
 1. <b>AUTO ICONs</b> (PARSE FAVICON OR YOUR IDEAs)
