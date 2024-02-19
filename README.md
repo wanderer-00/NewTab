@@ -4,8 +4,8 @@ I'm a foreigner (No do i speac eanglihshs (0_ o )
 This project should be called "Browser Bookmarks".<br>
 Something similar to this:
 
-<p>
-  <img align="center" src="https://media3.giphy.com/media/jAe22Ec5iICCk/giphy.gif">
+<p align="center">
+  <img src="https://media3.giphy.com/media/jAe22Ec5iICCk/giphy.gif">
 </p>
 
 ## FUNCTIOAL:
