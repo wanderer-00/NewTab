@@ -4,7 +4,9 @@ I'm a foreigner (No do i speac eanglihshs (0_ o )
 This project should be called "Browser Bookmarks".<br>
 Something similar to this:
 
-<img align="center" src="https://media3.giphy.com/media/jAe22Ec5iICCk/giphy.gif">
+<p>
+  <img align="center" src="https://media3.giphy.com/media/jAe22Ec5iICCk/giphy.gif">
+</p>
 
 ## FUNCTIOAL:
 1. <b>AUTO ICONs</b> (PARSE FAVICON OR YOUR IDEAs)
