@@ -167,7 +167,7 @@ var array = [
     {
         "URL": "http://crazybump.com/",
         "NAME": "Crazybump",
-        "ICON": ".svg"
+        "ICON": "#"
     },
 ]
 
