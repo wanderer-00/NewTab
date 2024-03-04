@@ -1,5 +1,15 @@
 var array = [
     {
+        "URL": "https://store.steampowered.com/",
+        "NAME": "Steam",
+        "ICON": "steam.svg"
+    },
+    {
+        "URL": "https://mail.google.com/",
+        "NAME": "Gmail",
+        "ICON": "gmail.svg"
+    },
+    {
         "URL": "https://translate.google.com/?hl=ru",
         "NAME": "Translate",
         "ICON": "google-translate.svg"
@@ -40,11 +50,6 @@ var array = [
         "ICON": "knover.svg"
     },
     {
-        "URL": "https://boxy-svg.com/",
-        "NAME": "BOXY SVG",
-        "ICON": "boxy-svg.svg"
-    },
-    {
         "URL": "https://www.corsair.com/",
         "NAME": "corsair",
         "ICON": "corsair.svg"
@@ -68,11 +73,6 @@ var array = [
         "URL": "https://www.avito.ru/",
         "NAME": "Avito",
         "ICON": "avito.svg"
-    },
-    {
-        "URL": "https://commons.wikimedia.org/w/index.php?search=magisk&title=Special:MediaSearch&go=Go&type=image&filemime=svg&uselang=ru",
-        "NAME": "WikiMedia SVG",
-        "ICON": "commons.svg"
     },
     {
         "URL": "https://getsharex.com/",
@@ -125,16 +125,6 @@ var array = [
         "ICON": ""
     },
     {
-        "URL": "https://github.com/",
-        "NAME": "GitHub",
-        "ICON": "github.svg"
-    },
-    {
-        "URL": "https://codepen.io/",
-        "NAME": "CodePen",
-        "ICON": "codepen.svg"
-    },
-    {
         "URL": "https://readme-typing-svg.herokuapp.com/demo/",
         "NAME": "SVG печатает",
         "ICON": "keyboard.svg"
@@ -153,11 +143,6 @@ var array = [
         "URL": "https://www.kinopoisk.ru/",
         "NAME": "Kinopoisk",
         "ICON": "kinopoisk.svg"
-    },
-    {
-        "URL": "https://fonts.google.com/icons",
-        "NAME": "Google Icons",
-        "ICON": "google_icon.svg"
     },
     {
         "URL": "https://www.blender.org/",

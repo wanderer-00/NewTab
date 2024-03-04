@@ -4,7 +4,7 @@ for (n=0; n<array.length; n++) {
     if (array[n].NAME != "" & array[n].ICON != ""){
         cluster.innerHTML += `
             <a class="card" id="card" href="${array[n].URL}">
-                <div class="icon" style="background-image: url(IMG/${array[n].ICON})"></div>
+                <div class="icon" style="background-image: url(SVG/${array[n].ICON})"></div>
                 <div class="name">${array[n].NAME}</div>
             </a>`
     }
