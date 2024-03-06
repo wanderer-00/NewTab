@@ -10,7 +10,7 @@ var array = [
         "ICON": "boxy-svg.svg"
     },
     {
-        "URL": "https://commons.wikimedia.org/w/index.php?search=magisk&title=Special:MediaSearch&go=Go&type=image&filemime=svg&uselang=ru",
+        "URL": "https://commons.wikimedia.org/",
         "NAME": "WikiMedia SVG",
         "ICON": "commons.svg"
     },
@@ -33,5 +33,10 @@ var array = [
         "URL": "https://codepen.io/",
         "NAME": "CodePen",
         "ICON": "codepen.svg"
+    },
+    {
+        "URL": "https://yandex.ru/yaintern/schools/summer",
+        "NAME": "Яндекс школа",
+        "ICON": "school.svg"
     },
 ]
