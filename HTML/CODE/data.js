@@ -39,4 +39,9 @@ var array = [
         "NAME": "Яндекс школа",
         "ICON": "school.svg"
     },
+    {
+        "URL": "https://js1k.com/",
+        "NAME": "1kb JS",
+        "ICON": "1kjs.svg"
+    },
 ]
