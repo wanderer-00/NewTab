@@ -152,7 +152,12 @@ var array = [
     {
         "URL": "http://crazybump.com/",
         "NAME": "Crazybump",
-        "ICON": "404.svg"
+        "ICON": "crazybump.webp"
+    },
+    {
+        "URL": "https://thepiratebay.org/index.html",
+        "NAME": "The pirate bay",
+        "ICON": "thepiratebay.svg"
     },
 ]
 
