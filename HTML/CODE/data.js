@@ -44,4 +44,14 @@ var array = [
         "NAME": "1kb JS",
         "ICON": "1kjs.svg"
     },
-]
+    {
+        "URL": "https://www.phpmyadmin.net/",
+        "NAME": "PHP MyAdmin",
+        "ICON": "phpmyadmin.svg"
+    },
+    {
+        "URL": "https://ospanel.io/",
+        "NAME": "Open Server",
+        "ICON": "openserver.ico"
+    }
+];
