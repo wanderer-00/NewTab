@@ -115,11 +115,6 @@ var array = [
         "ICON": "pinterest.svg"
     },
     {
-        "URL": "http://breaking-bad-online.ru/",
-        "NAME": "Breaking Bad",
-        "ICON": "breaking-bad.svg "
-    },
-    {
         "URL": "https://wanderer-00.github.io/websiteThemes/",
         "NAME": "Темы для сайтов",
         "ICON": ""
@@ -158,6 +153,16 @@ var array = [
         "URL": "https://thepiratebay.org/index.html",
         "NAME": "The pirate bay",
         "ICON": "thepiratebay.svg"
+    },
+    {
+        "URL": "https://www.artstation.com/",
+        "NAME": "Artstation",
+        "ICON": "artstation.svg"
+    },
+    {
+        "URL": "#",
+        "NAME": "ADD",
+        "ICON": "+"
     },
 ]
 
