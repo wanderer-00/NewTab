@@ -37,6 +37,22 @@
             flex-wrap: wrap;
             justify-content: center;
             margin: 0 auto;
+            grid-gap: 20px;
+            & .card {
+                width: calc(var(--icon-width-height) + var(--card-padding) * 2);
+
+                padding: 0 var(--card-padding);
+
+                /*background-color: var(--card-background-color);*/
+                background-color: rgba(255,255,255,.2);
+                backdrop-filter: blur(2px);
+
+                border-radius: var(--card-border-radius);
+                box-shadow: 0 0 3px 0 var(--card-shadows-color);
+                cursor: pointer;
+
+                &:hover {animation: 1s infinite alternate card}
+            }
         }
 
         object {
@@ -46,40 +62,11 @@
 
 
         /*************************************************************************/
-        .card {
-            width: calc(var(--icon-width-height) + var(--card-padding) * 2);
 
-            margin: 20px 0 0 var(--card-margin);
-            padding: 0 var(--card-padding);
-
-            /*background-color: var(--card-background-color);*/
-            background-color: rgba(255,255,255,.2);
-            backdrop-filter: blur(2px);
-
-            border-radius: var(--card-border-radius);
-            box-shadow: 0 0 3px 0 var(--card-shadows-color);
-            cursor: pointer;
-
-        }
-
-        .card:last-child
-        {
-            /*???????????margin-right: var(--card-margin)*/
-        }
-
-        .card:hover
-        {
-            animation: 1s infinite alternate card;
-        }
 
         @keyframes card {
-            from {
-                box-shadow: 0 0 2px 0 var(--card-shadows-color);
-            }
-
-            to {
-                box-shadow: 0 0 20px 0 var(--card-shadows-color);
-            }
+            from {box-shadow: 0 0 2px 0 var(--card-shadows-color)}
+            to {box-shadow: 0 0 20px 0 var(--card-shadows-color)}
         }
         /*************************************************************************/
 
@@ -95,7 +82,7 @@
         .name{
             width: var(--icon-width);
             color: var(--color);
-            font-size: 16px;
+            font-size: 1em;
             margin-top: 6px;
             margin-bottom: 16px;
             text-align: center;
@@ -132,9 +119,10 @@
 -->
     <style>
         header {
+            margin-bottom: 20px;
             box-shadow: 0 0 5px 0 #999;
 
-            & > .wrapper {
+            & > div {
                 padding: 20px;
                 display: flex;
                 gap: 10px;
@@ -153,9 +141,10 @@
             }
         }
     </style>
+    
     <header>
         <div class="wrapper">
-            <a href="HTML/CODE/index.html">code</a>
+            <a href="HTML/code/index.html">code</a>
             <a href="#">game</a>
             <a href="#">program</a>
             <a href="#">porn</a>
@@ -163,22 +152,15 @@
             <a href="#">music</a>
             <a href="#">message</a>
             <a href="#">+</a>
-
         </div>
     </header>
    
-    <div class="cluster"></div>
-    
-    <div class="VIDEO"></div>
-    
+    <div class="cluster wrapper"></div>
     
     <footer>
         <div class="version">version: 0.2</div>
-        <!-- список изменений -->
-        <!-- контакты -->
+        <a href="HTML/lighthouse/index.html">LightHouse</a>
     </footer>
-    
-    
 
 </body>
 
