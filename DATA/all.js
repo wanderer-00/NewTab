@@ -162,7 +162,7 @@ var array = [
     {
         "URL": "#",
         "NAME": "ADD",
-        "ICON": "+"
+        "ICON": "404.svg"
     },
 ]
 
