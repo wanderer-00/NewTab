@@ -1,4 +1,4 @@
-var array = [
+const array = [
     {
         "URL": "https://leetcode.com/",
         "NAME": "Leet code",
@@ -53,5 +53,10 @@ var array = [
         "URL": "https://ospanel.io/",
         "NAME": "Open Server",
         "ICON": "openserver.ico"
+    },
+    {
+        "URL": "https://kwork.ru/",
+        "NAME": "Kwork",
+        "ICON": "openserver.ico"
     }
-];
+]

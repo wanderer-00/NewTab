@@ -160,6 +160,11 @@ var array = [
         "ICON": "artstation.svg"
     },
     {
+        "URL": "https://itch.io/",
+        "NAME": "Itchio",
+        "ICON": "itchio.svg"
+    },
+    {
         "URL": "#",
         "NAME": "ADD",
         "ICON": "404.svg"
