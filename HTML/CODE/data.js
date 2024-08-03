@@ -57,6 +57,22 @@ const array = [
     {
         "URL": "https://kwork.ru/",
         "NAME": "Kwork",
-        "ICON": "openserver.ico"
+        "ICON": "404.svg"
+    },
+    {
+        "URL": "https://loading.express/",
+        "NAME": "Load.express",
+        "ICON": "404.svg"
+    },
+    {
+        "URL": "https://pagespeed.web.dev/",
+        "NAME": "Pagespeed",
+        "ICON": "404.svg"
+    },
+    {
+        "URL": "https://speedvitals.com/",
+        "NAME": "SpeedVitals",
+        "ICON": "404.svg"
     }
+
 ]
