@@ -73,6 +73,10 @@ const array = [
         "URL": "https://speedvitals.com/",
         "NAME": "SpeedVitals",
         "ICON": "404.svg"
+    },
+    {
+        "URL": "https://core.telegram.org/bots/api",
+        "NAME": "Tele API",
+        "ICON": "404.svg"
     }
-
 ]
