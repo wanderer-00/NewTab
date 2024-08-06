@@ -25,6 +25,14 @@
     --scrollbar-trumb-background-color-hover: rgba(0,0,0,.3);
 }
 
+/* ScrollBar */
+::-webkit-scrollbar {width: var(--scrollbar-width)}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--scrollbar-trumb-background-color)
+}
+::-webkit-scrollbar-thumb:hover {background-color: var(--scrollbar-trumb-background-color-hover)}
+
 * {
     box-sizing: border-box;
     font-family: cursive;
