@@ -1,4 +1,4 @@
-const array = [
+var array_code = [
     {
         "URL": "https://leetcode.com/",
         "NAME": "Leet code",
@@ -57,26 +57,26 @@ const array = [
     {
         "URL": "https://kwork.ru/",
         "NAME": "Kwork",
-        "ICON": "404.svg"
+        "ICON": "kwork.svg"
     },
     {
         "URL": "https://loading.express/",
         "NAME": "Load.express",
-        "ICON": "404.svg"
+        "ICON": "load_express.svg"
     },
     {
         "URL": "https://pagespeed.web.dev/",
         "NAME": "Pagespeed",
-        "ICON": "404.svg"
+        "ICON": "google_pagespeed.svg"
     },
     {
         "URL": "https://speedvitals.com/",
         "NAME": "SpeedVitals",
-        "ICON": "404.svg"
+        "ICON": "speed_vitals.svg"
     },
     {
         "URL": "https://core.telegram.org/bots/api",
         "NAME": "Tele API",
-        "ICON": "404.svg"
+        "ICON": "telegram_api.jpg"
     }
 ]

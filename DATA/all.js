@@ -1,4 +1,4 @@
-var array = [
+var array_all = [
     {
         "URL": "https://store.steampowered.com/",
         "NAME": "Steam",
@@ -75,11 +75,6 @@ var array = [
         "ICON": "avito.svg"
     },
     {
-        "URL": "https://getsharex.com/",
-        "NAME": "ShareX",
-        "ICON": "sharex.svg"
-    },
-    {
         "URL": "https://www.cheatengine.org/",
         "NAME": "Cheat Engine",
         "ICON": "cheat-engine.svg"
@@ -123,16 +118,6 @@ var array = [
         "URL": "https://readme-typing-svg.herokuapp.com/demo/",
         "NAME": "SVG печатает",
         "ICON": "keyboard.svg"
-    },
-    {
-        "URL": "https://wanderer-00.github.io/Programs/",
-        "NAME": "Program",
-        "ICON": "program.svg"
-    },
-    {
-        "URL": "#",
-        "NAME": "Сериалы",
-        "ICON": "kino.svg"
     },
     {
         "URL": "https://www.kinopoisk.ru/",
