@@ -75,6 +75,11 @@ var array_code = [
         "ICON": "speed_vitals.svg"
     },
     {
+        "URL": "https://tools.pingdom.com/",
+        "NAME": "Pingdom",
+        "ICON": "404.svg"
+    },
+    {
         "URL": "https://validator.schema.org/",
         "NAME": "Schema.org",
         "ICON": "404.svg"
