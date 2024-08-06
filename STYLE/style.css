@@ -57,6 +57,9 @@ header {
             text-transform: uppercase;
             font-family: sans-serif;
             font-weight: 600;
+            cursor: pointer;
+            border: none;
+            background-color: var(--body-background-color);
         }
     }
 }

@@ -75,6 +75,12 @@ var array_code = [
         "ICON": "speed_vitals.svg"
     },
     {
+        "URL": "https://validator.schema.org/",
+        "NAME": "Schema.org",
+        "ICON": "404.svg"
+    },
+
+    {
         "URL": "https://core.telegram.org/bots/api",
         "NAME": "Tele API",
         "ICON": "telegram_api.jpg"
