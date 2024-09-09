@@ -135,3 +135,9 @@ object {
     overflow: hidden;
     white-space: nowrap;
 }
+
+@media (orientation: portrait){
+ .card {
+  width: 20%
+ }
+}
