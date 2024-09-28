@@ -120,7 +120,7 @@ var array_program = [
         "URL": "https://www.qbittorrent.org/download"
     },
     {
-        "ICON": "ShareX.svg",
+        "ICON": "sharex.svg",
         "NAME": "ShareX",
         "NOTE": "Удобный скриншотер",
         "URL": "https://getsharex.com/downloads"
