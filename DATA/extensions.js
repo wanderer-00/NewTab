@@ -24,7 +24,7 @@ var array_extensions = [
         "URL": "https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld"
     },
     {
-        "ICON": "404.svg",
+        "ICON": "dark_reader.svg",
         "NAME": "Dark Reader",
         "NOTE": "Тёмная тема для всех сайтов",
         "URL": "https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"
