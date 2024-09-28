@@ -71,6 +71,9 @@ header {
         }
     }
 }
+footer {
+    text-align: center;s
+}
 
 a {
     color: black;
