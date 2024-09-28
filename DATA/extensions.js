@@ -1,6 +1,6 @@
 var array_extensions = [
     {
-        "ICON": "404.svg",
+        "ICON": "adblock.svg",
         "NAME": "AdBlock",
         "NOTE": "Блокировка рекламы на сайтах",
         "URL": "https://chromewebstore.google.com/detail/adblock-%E2%80%93-%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D1%80%D0%B5%D0%BA%D0%BB/gighmmpiobklfepjocnamgkkbiglidom"
