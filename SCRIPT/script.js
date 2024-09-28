@@ -10,7 +10,7 @@ var cluster = document.getElementsByClassName("cluster")[0];
 //     }
 // }
 
-code(array_all);
+code(array_code);
 
 function code(category){
     // очистка страницы
