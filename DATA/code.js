@@ -25,6 +25,11 @@ var array_code = [
         "ICON": "google_icon.svg"
     },
     {
+        "URL": "",
+        "NAME": "Simple Icons",
+        "ICON": "simple_icons.svg"
+    },
+    {
         "URL": "https://stackoverflow.com/",
         "NAME": "Stack Overflow",
         "ICON": "stackoverflow.svg"
