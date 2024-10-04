@@ -11,4 +11,10 @@ var array_test = [
         "NOTE": "",
         "URL": "#"
     },
+    {
+        "ICON": "",
+        "NAME": "",
+        "NOTE": "",
+        "URL": "#"
+    },
 ]
