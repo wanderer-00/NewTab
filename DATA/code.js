@@ -89,10 +89,14 @@ var array_code = [
         "NAME": "Schema.org",
         "ICON": "404.svg"
     },
-
     {
         "URL": "https://core.telegram.org/bots/api",
         "NAME": "Tele API",
         "ICON": "telegram_api.jpg"
+    },
+    {
+        "URL": "https://code.visualstudio.com/download",
+        "NAME": "VSC",
+        "ICON": "vsc.svg"
     }
 ]
