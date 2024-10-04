@@ -27,7 +27,7 @@ var array_code = [
     {
         "URL": "https://simpleicons.org/",
         "NAME": "Simple Icons",
-        "ICON": "simple_icons.svg"
+        "ICON": "simple_icons.png"
     },
     {
         "URL": "https://stackoverflow.com/",
