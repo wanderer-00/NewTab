@@ -28,5 +28,6 @@ var array_test = [
         "NAME": "",
         "NOTE": "",
         "URL": "#"
-    },
+    }
+// 6
 ]
