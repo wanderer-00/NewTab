@@ -4,30 +4,6 @@ var array_test = [
         "NAME": "",
         "NOTE": "",
         "URL": "#"
-    },
-    {
-        "ICON": "",
-        "NAME": "",
-        "NOTE": "",
-        "URL": "#"
-    },
-    {
-        "ICON": "",
-        "NAME": "",
-        "NOTE": "",
-        "URL": "#"
-    },
-    {
-        "ICON": "",
-        "NAME": "",
-        "NOTE": "",
-        "URL": "#"
-    },
-    {
-        "ICON": "",
-        "NAME": "",
-        "NOTE": "",
-        "URL": "#"
     }
-// 3
+// 4
 ]
