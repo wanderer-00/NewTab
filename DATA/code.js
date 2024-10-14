@@ -98,5 +98,10 @@ var array_code = [
         "URL": "https://code.visualstudio.com/download",
         "NAME": "VSC",
         "ICON": "vsc.svg"
+    },
+    {
+        "URL": "https://image.online-convert.com/convert/png-to-ico",
+        "NAME": "PNG > ICO",
+        "ICON": "png_to_ico.svg"
     }
 ]
