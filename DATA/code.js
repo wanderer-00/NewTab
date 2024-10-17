@@ -87,7 +87,7 @@ var array_code = [
     {
         "URL": "https://validator.schema.org/",
         "NAME": "Schema.org",
-        "ICON": "404.svg"
+        "ICON": "schema.org.svg"
     },
     {
         "URL": "https://core.telegram.org/bots/api",
