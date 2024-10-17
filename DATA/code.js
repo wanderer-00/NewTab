@@ -103,5 +103,10 @@ var array_code = [
         "URL": "https://image.online-convert.com/convert/png-to-ico",
         "NAME": "PNG > ICO",
         "ICON": "png_to_ico.svg"
+    },
+    {
+        "URL": "https://docs.google.com/spreadsheets/d/13v42IrqDFyjCV4iqnt0eOWcHMv2Tn-b3/edit?pli=1&gid=1375221948#gid=1375221948",
+        "NAME": "Таблица Remark",
+        "ICON": "google_sheets.svg"
     }
 ]
