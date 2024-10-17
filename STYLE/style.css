@@ -46,9 +46,11 @@ body {
     background-color: var(--body-background-color);
 }
 
+header,
+footer {box-shadow: 0 0 5px 0 #999}
+
 header {
     margin-bottom: 20px;
-    box-shadow: 0 0 5px 0 #999;
 
     & > div {
         padding: 20px;
@@ -71,8 +73,10 @@ header {
         }
     }
 }
+
 footer {
-    text-align: center;s
+    
+    text-align: center;
 }
 
 a {
