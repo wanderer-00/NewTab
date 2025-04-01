@@ -15,28 +15,31 @@
 
     <header>
         <div class="wrapper">
-            <button onclick="code(array_all)">Всё</button>
+            <button onclick="code(array_all)">
+                <img src="ICON/favorite.svg" title="Частоиспользуемые">
+            </button>
 
-            <button onclick="code(array_messenger)">
+            <button onclick="code(array_messenger)" title="Социальные сети">
                 <img src="ICON/messenger.svg">
             </button>
 
-            <button onclick="code(array_programming)">
+            <button onclick="code(array_programming)" title="Программирование">
                 <img src="ICON/programming.svg">
             </button>
 
-            <button onclick="code(array_game)">
+            <button onclick="code(array_game)" title="Игры">
                 <img src="ICON/game.svg">
             </button>
 
-            <button onclick="code(array_program)">
+            <button onclick="code(array_program)" title="Программы">
                 <img src="ICON/program.svg">
             </button>
 
-            <button onclick="code(array_extensions)">
+            <button onclick="code(array_extensions)" title="Расширения">
                 <img src="ICON/extensions.svg">
             </button>
-            <button href="#" disabled>+</button>
+
+            <button href="#" disabled style="cursor: not-allowed;" title="Функция ещё не готова...">+</button>
         </div>
     </header>
 
@@ -44,7 +47,7 @@
 
     <footer>
         <div class="wrapper">
-            <p>version: 1.6 </p><a href="HTML/lighthouse/index.html">LightHouse</a>
+            <p>version: 2.0 </p><a href="HTML/lighthouse/index.html">LightHouse</a>
         </div>
     </footer>
 

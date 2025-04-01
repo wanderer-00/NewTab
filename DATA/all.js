@@ -5,6 +5,11 @@ var array_all = [
         "ICON": "gmail.svg"
     },
     {
+        "URL": "https://filmlist.duckdns.org:8443/",
+        "NAME": "",
+        "ICON": "404.svg"
+    },
+    {
         "URL": "https://translate.google.com/?hl=ru",
         "NAME": "Translate",
         "ICON": "google-translate.svg"
