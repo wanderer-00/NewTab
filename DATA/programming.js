@@ -1,4 +1,4 @@
-var array_code = [
+var array_programming = [
     {
         "URL": "https://leetcode.com/",
         "NAME": "Leet code",

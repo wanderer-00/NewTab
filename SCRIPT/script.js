@@ -2,7 +2,7 @@
 var cluster = document.getElementsByClassName("cluster")[0];
 
 // загружаемая категория вкладок по умолчанию
-code(array_code);
+code(array_all);
 
 // отрисовка категорий вкладок
 function code(category){
