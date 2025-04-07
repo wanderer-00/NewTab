@@ -65,6 +65,11 @@ var array_programming = [
         "ICON": "kwork.svg"
     },
     {
+        "URL": "https://www.fl.ru/",
+        "NAME": "FL",
+        "ICON": "fl.svg"
+    },
+    {
         "URL": "https://loading.express/",
         "NAME": "Load.express",
         "ICON": "load_express.svg"

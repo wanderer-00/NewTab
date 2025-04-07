@@ -5,6 +5,11 @@ var array_game = [
         "ICON": "steam.svg"
     },
     {
+        "URL": "https://store.epicgames.com/",
+        "NAME": "Epic Games",
+        "ICON": "epic_games.svg"
+    },
+    {
         "URL": "https://itch.io/",
         "NAME": "Itchio",
         "ICON": "itchio.svg"
@@ -18,5 +23,5 @@ var array_game = [
         "URL": "https://evolution-web.onrender.com/login",
         "NAME": "Evolution",
         "ICON": "404.svg"
-    },
+    }
 ]

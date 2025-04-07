@@ -186,12 +186,6 @@ var array_program = [
         "URL": "https://store.steampowered.com/"
     },
     {
-        "ICON": "epic_games.svg",
-        "NAME": "Epic Games",
-        "NOTE": "библиотека игр",
-        "URL": "https://store.epicgames.com/"
-    },
-    {
         "ICON": "windows.svg",
         "NAME": "Windows 10 LTSC",
         "NOTE": "облегченная версия windows 10",
