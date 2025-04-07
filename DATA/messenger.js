@@ -10,6 +10,11 @@ var array_messenger = [
         "ICON": "telegram.svg"
     },
     {
+        "URL": "https://blog.whatsapp.com/whats-app-web",
+        "NAME": "WhatsApp",
+        "ICON": "whatsapp.svg"
+    },
+    {
         "URL": "https://vk.com/",
         "NAME": "VK",
         "ICON": "vk.svg"
@@ -25,13 +30,8 @@ var array_messenger = [
         "ICON": "coub.com.svg"
     },
     {
-        "URL": "https://joyreactor.cc/",
-        "NAME": "Joy Reactor",
-        "ICON": "reactor.svg"
-    },
-    {
         "URL": "https://ru.pinterest.com/",
         "NAME": "Pinterest",
         "ICON": "pinterest.svg"
-    },
+    }
 ]

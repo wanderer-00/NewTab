@@ -1,5 +1,5 @@
 // блок отрисовки вкладок
-var cluster = document.getElementsByClassName("cluster")[0];
+var cluster = document.getElementById('cluster');
 
 // загружаемая категория вкладок по умолчанию
 code(array_all);
