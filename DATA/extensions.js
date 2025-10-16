@@ -18,7 +18,7 @@ var array_extensions = [
         "URL": "https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo"
     },
     {
-        "ICON": "404.svg",
+        "ICON": "user_css_js.svg",
         "NAME": "User JS & CSS",
         "NOTE": "Расширение для изменения сайтов и написания кастомных тем",
         "URL": "https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld"

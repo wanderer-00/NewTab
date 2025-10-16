@@ -10,7 +10,7 @@ var array_messenger = [
         "ICON": "telegram.svg"
     },
     {
-        "URL": "https://blog.whatsapp.com/whats-app-web",
+        "URL": "https://web.whatsapp.com/",
         "NAME": "WhatsApp",
         "ICON": "whatsapp.svg"
     },

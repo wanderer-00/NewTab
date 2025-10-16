@@ -5,6 +5,12 @@ var array_all = [
         "ICON": "gmail.svg"
     },
     {
+        "URL": "https://outlook.live.com/mail/0/",
+        "NAME": "Outlook",
+        "ICON": "outlook.svg"
+    }, 
+
+    {
         "URL": "https://filmlist.duckdns.org:8443/",
         "NAME": "",
         "ICON": "404.svg"
