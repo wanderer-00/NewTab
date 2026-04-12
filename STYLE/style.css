@@ -36,9 +36,13 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+    user-select: none;
 }
 
 body {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-rows: auto 1fr auto;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -50,8 +54,6 @@ header,
 footer {box-shadow: 0 0 5px 0 #999}
 
 header {
-    margin-bottom: 20px;
-
     & > div {
         display: flex;
         justify-content: center;
@@ -67,10 +69,7 @@ header {
 }
 
 
-footer {
-    
-    text-align: center;
-}
+footer {text-align: center}
 
 a {
     color: black;
@@ -89,7 +88,6 @@ a {
 
         padding: 0 var(--card-padding);
 
-        /*background-color: var(--card-background-color);*/
         background-color: rgba(255,255,255,.2);
         backdrop-filter: blur(2px);
 
@@ -106,14 +104,13 @@ object {
     height: 100%;
 }
 
-
+/* анимации */
 /*************************************************************************/
 @keyframes card {
     from {box-shadow: 0 0 2px 0 var(--card-shadows-color)}
     to {box-shadow: 0 0 20px 0 var(--card-shadows-color)}
 }
 /*************************************************************************/
-
 
 .icon{
     width: var(--icon-width);
@@ -137,7 +134,10 @@ object {
 }
 
 @media (orientation: portrait){
- .card {
-  width: 20%
- }
+/*
+    #cluster {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
+*/
 }
