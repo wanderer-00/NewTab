@@ -96,9 +96,13 @@ var array_all = [
         "ICON": "artstation.svg"
     },
     {
+        "URL": "https://new-tab.duckdns.org:8443/",
+        "NAME": "New Tab",
+        "ICON": "404.svg"
+    },
+    {
         "URL": "#",
         "NAME": "ADD",
         "ICON": "404.svg"
     },
 ]
-
