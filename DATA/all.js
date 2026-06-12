@@ -26,7 +26,7 @@ var array_all = [
         "ICON": "google_docs.svg"
     },
     {
-        "URL": "https://www.google.com/sheets/about/",
+        "URL": "https://docs.google.com/spreadsheets/u/0/",
         "NAME": "Sheets",
         "ICON": "google_sheets.svg"
     },
